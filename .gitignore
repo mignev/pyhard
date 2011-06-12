@@ -1,0 +1,8 @@
+*~
+*.diff
+.DS_Store
+*.swp
+*.pyc
+__pycache__
+watch.rb
+installed_files.txt
