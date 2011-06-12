@@ -1,8 +1,8 @@
-## Motivation
+# Motivation
 
 On Mac OSX, we can't create hard links using the ln command.
 
-## Installation
+# Installation
 
     git clone http://mignev@github.com/mignev/pyhard.git
     cd pyhard
@@ -15,7 +15,7 @@ Without `make`:
     
     python setup.py install
 
-## Usage
+# Usage
 
     # python
 
