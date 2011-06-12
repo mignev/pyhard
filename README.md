@@ -1,6 +1,6 @@
 # Motivation
 
-On Mac OSX, we can't create hard links using the ln command.
+On Mac OSX, we can't create hard links using the `ln` command.
 
 # Installation
 
