@@ -17,6 +17,8 @@ Without `make`:
 
 # Usage
 
+Using `pyhard` python module:
+
     # python
 
     >> import pyhard
