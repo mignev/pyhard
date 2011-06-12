@@ -9,4 +9,6 @@ setup (name = 'PyHard',
        author_email='m@ignev.net',
        url='http://m.ignev.net/code/pyhard',
        description = 'Creating hard links with python on MacOS',
-       ext_modules = [pyhardmodule])
+       ext_modules = [pyhardmodule],
+       scripts = ["bin/pyhard"],
+       )

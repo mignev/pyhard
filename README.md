@@ -27,5 +27,13 @@ Without `make`:
     >> #Removing hard link
     >> pyhard.unlink('/your/hardlink/dir') 
 
+Using `pyhard` executable:
+    
+    ### Creating hard link
+    # pyhard <source_dir> <hardlink_dir>
+
+    ### Removing hard link
+    # pyhard rm <hardlink_dir>
+
 # Copyright
 PyHard is licensed under the GPL: http://www.gnu.org/licenses/gpl-3.0.html
