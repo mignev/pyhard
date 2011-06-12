@@ -28,4 +28,4 @@ Without `make`:
     >> pyhard.unlink('/your/hardlink/dir') 
 
 # Copyright
-PyHard is registered  under http://www.gnu.org/licenses/gpl-3.0.html
+PyHard is licensed under the GPL: http://www.gnu.org/licenses/gpl-3.0.html
