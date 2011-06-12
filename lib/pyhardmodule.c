@@ -62,14 +62,14 @@ static PyMethodDef PyHardMethods[] = {
 PyMODINIT_FUNC
 initpyhard(void)
 {
-    PyObject *module;
+    PyObject *module_init;
 
-    module = Py_InitModule("pyhard", PyHardMethods);
-    if(module == NULL)
+    module_init = Py_InitModule("pyhard", PyHardMethods);
+    if(module_init == NULL)
         return;
 
     PyHardError = PyErr_NewException("pyhard.error", NULL, NULL);
     Py_INCREF(PyHardError);
-    PyModule_AddObject(module, "error", PyHardError);
+    PyModule_AddObject(module_init, "error", PyHardError);
 }
 
