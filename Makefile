@@ -6,10 +6,12 @@ help:
 install:
 	@echo "Installing"
 	@python setup.py build
-	@python setup.py install --record installed_files.txt
+	@echo "Enter your sudo password"
+	@sudo python setup.py install --record installed_files.txt
 
 uninstall: clean
-	@cat installed_files.txt | xargs rm -rf
+	@echo "Enter your sudo password"
+	@cat installed_files.txt | xargs sudo rm -rf
 	@rm installed_files.txt    
 
 clean:

@@ -13,7 +13,8 @@ With `make`:
 
 Without `make`:
     
-    python setup.py install
+    python setup.py build
+    sudo python setup.py install
 
 # Usage
 
