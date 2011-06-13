@@ -1,6 +1,5 @@
 #include <Python.h>
 
-/* On Mac OSX, we can't create hard links using the ln command.. */
 static PyObject *PyHardError; 
 
 static PyObject *
